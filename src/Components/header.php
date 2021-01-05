@@ -15,7 +15,7 @@
   </head>
   <body>
     
-    <?php if (isset($_DATAS["components.headers"]) && $_DATAS["components.headers"]): ?>
+    <?php if (isset($_DATAS_["components.headers"]) && $_DATAS_["components.headers"]): ?>
         <nav class="navbar navbar-expand-sm navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="/"><i class='uil uil-user'></i> Simon Malpel<small class="d-block text-muted">#ApplicationDeveloper #DarkTeam</small></a>
