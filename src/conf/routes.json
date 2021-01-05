@@ -1,0 +1,27 @@
+{
+    "default": [
+        {
+            "method": "GET",
+            "pattern": "/",
+            "service": "Portfolio::Index",
+            "cache": true
+        }
+    ],
+    "help-center": [
+        {
+            "method": "GET",
+            "pattern": "/",
+            "service": "HelpCenter::Projects"
+        },
+        {
+            "method": "GET",
+            "pattern": "/{project-name}",
+            "service": "HelpCenter::Project"
+        },
+        {
+            "method": "GET",
+            "pattern": "/{project-name}/documentation",
+            "service": "HelpCenter::Documentation"
+        }
+    ]
+}

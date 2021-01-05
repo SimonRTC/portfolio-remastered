@@ -1,0 +1,23 @@
+{
+    "name": "simonrtc/portfolio-remastered",
+    "description": "My official portfolio (www.simonmalpel.fr) [remastered]",
+    "authors": [
+        {
+            "name": "Simon Malpel",
+            "email": "simon.malpel@orange.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Frameshort\\": "src/Models/",
+            "Frameshort\\Controllers\\": "src/Controllers/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.0"
+    },
+    "require": {
+        "erusev/parsedown": "^1.7"
+    }
+}
