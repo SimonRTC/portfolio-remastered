@@ -32,7 +32,7 @@
                             <a href="#about" class="nav-link"><span data-hover="À propos"><i class="uil uil-info mr-2"></i>À propos</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#project" class="nav-link"><span data-hover="Mes Projets"><i class="uil uil-books mr-2"></i>Mes Projets</span></a>
+                            <a href="#projects" class="nav-link"><span data-hover="Mes Projets"><i class="uil uil-books mr-2"></i>Mes Projets</span></a>
                         </li>
                         <li class="nav-item">
                             <a href="#resume" class="nav-link"><span data-hover="CV"><i class='uil uil-user mr-2'></i>CV</span></a>

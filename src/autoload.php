@@ -1,10 +1,15 @@
 <?php
 
-    $path = realpath( __DIR__ . "/.." );
-    $path = ($path !== false? $path: null);
+if (!SESSION_ID()) { SESSION_START(); }
 
-    define("__PATH__", $path);
+$path = realpath( __DIR__ . "/.." );
+$path = ($path !== false? $path: null);
 
-    require __PATH__ . '/vendor/autoload.php';
+define("__PATH__", $path);
+
+require __PATH__ . '/vendor/autoload.php';
+
+// Load environment variables
+$Dotenv = (new \Symfony\Component\Dotenv\Dotenv)->load(__PATH__ . "/.env");
 
 ?>

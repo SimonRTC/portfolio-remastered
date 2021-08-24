@@ -1,10 +1,9 @@
 {
     "default": [
         {
-            "method": "GET",
+            "method": "GET|POST",
             "pattern": "/",
-            "service": "Portfolio::Index",
-            "cache": true
+            "service": "Portfolio::Index"
         }
     ],
     "help-center": [
