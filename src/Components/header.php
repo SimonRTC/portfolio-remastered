@@ -18,7 +18,7 @@
     <?php if (isset($_DATAS_["components.headers"]) && $_DATAS_["components.headers"]): ?>
         <nav class="navbar navbar-expand-sm navbar-light">
             <div class="container">
-                <a class="navbar-brand" href="/"><i class='uil uil-user'></i> Simon Malpel<small class="d-block text-muted">#ApplicationDeveloper #DarkTeam</small></a>
+                <a class="navbar-brand" href="/"><i class='uil uil-user'></i> Simon Malpel<small class="d-block text-muted">#Developer #DarkTeam</small></a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

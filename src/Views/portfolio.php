@@ -13,8 +13,9 @@
               <!-- <span class="animated-item">profondément capitaliste</span> -->
             </div>
           </h1>
-          <p><u>Vous souhaitez voir mon travail?</u> N'hésitez pas à jeter un œil sur mon profile GitHub ou de visiter mon compte Linkedin.</p>
+          <p><u>Vous souhaitez voir mon travail?</u> N'hésitez pas à jeter un œil sur mon profil GitLab / GitHub ou de visiter mon compte Linkedin.</p>
           <div class="custom-btn-group mt-4">
+            <a target="_blank" href="//gitlab.simonmalpel.fr/" class="btn mr-lg-2 custom-btn"><i class="uil uil-gitlab mr-2"></i>GitLab</a>
             <a target="_blank" href="//github.com/SimonRTC" class="btn custom-btn custom-btn-bg custom-btn-link"><i class="uil uil-github mr-2"></i>GitHub</a>
             <a target="_blank" href="//www.linkedin.com/in/simon-malpel/" class="btn mr-lg-2 custom-btn"><i class="uil uil-linkedin mr-2"></i>Linkedin</a>
           </div>
@@ -40,7 +41,7 @@
           <h4><u>Languages & Frameworks</u></h4>
         </div>
         <div class="container">
-          <p class="text-muted">PHP<small class="ml-2">(Laravel, Symfony, PHPUnit)</small></p>
+          <p class="text-muted">PHP<small class="ml-2">(Symfony, Laravel)</small></p>
           <div class="progress" style="height: 0.3rem;">
             <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
@@ -52,9 +53,15 @@
           </div>
         </div>
         <div class="container mt-4">
-          <p class="text-muted">C <small>&</small> C#<small class="ml-2">(IoT, .NET)</small></p>
+          <p class="text-muted">C#<small class="ml-2">(Arduino)</small></p>
           <div class="progress" style="height: 0.3rem;">
             <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="container mt-4">
+          <p class="text-muted">TypeScript<small class="ml-2">(Angular, webpack)</small></p>
+          <div class="progress" style="height: 0.3rem;">
+            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="container mt-4">
@@ -64,21 +71,15 @@
           </div>
         </div>
         <div class="container mt-4">
-          <p class="text-muted">TypeScript<small class="ml-2">(Angular, webpack)</small></p>
-          <div class="progress" style="height: 0.3rem;">
-            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div class="container mt-4">
           <p class="text-muted">Python<small class="ml-2">(Django, Tensorflow)</small></p>
           <div class="progress" style="height: 0.3rem;">
             <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="container mt-4">
-          <p class="text-muted">Golang<small class="ml-2"><span class="badge badge-light">Débutant</span></small></p>
+          <p class="text-muted">Java<small class="ml-2"><span class="badge badge-light">Débutant</span></small></p>
           <div class="progress" style="height: 0.3rem;">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
       </div>
@@ -87,13 +88,19 @@
           <h4><u>Applications & Services</u></h4>
         </div>
         <div class="container">
-          <p class="text-muted">IDE<small class="ml-2">(vscode, jetbrains suite, sublime text)</small></p>
+          <p class="text-muted">IDE<small class="ml-2">(vscode, IntelliJ, PyCharm, vim)</small></p>
           <div class="progress" style="height: 0.3rem;">
             <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="container mt-4">
-          <p class="text-muted">OpenStack<small class="ml-2">(Ironic, Magnum, Heat)</small></p>
+          <p class="text-muted">Linux<small class="ml-2">(Debian / Ubuntu, Alpine, CentOS)</small></p>
+          <div class="progress" style="height: 0.3rem;">
+            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="container mt-4">
+          <p class="text-muted">OpenStack<small class="ml-2">(Self-managed IaaS)</small></p>
           <div class="progress" style="height: 0.3rem;">
             <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
@@ -105,13 +112,7 @@
           </div>
         </div>
         <div class="container mt-4">
-          <p class="text-muted">Linux<small class="ml-2">(Debian, CentOS, Fedora, Ubuntu)</small></p>
-          <div class="progress" style="height: 0.3rem;">
-            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div class="container mt-4">
-          <p class="text-muted">Kubernetes<small class="ml-2">(Vault)</small></p>
+          <p class="text-muted">Kubernetes<small class="ml-2">(OpenStack Magnum)</small></p>
           <div class="progress" style="height: 0.3rem;">
             <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
@@ -146,12 +147,12 @@
           </div>
           <div class="timeline-info">
             <h3><span>Framefaced</span><small>Projet Personnel</small></h3>
-            <span class="text-muted">Framework PHP conçut pour les APIs</span>
+            <span class="text-muted">Framework PHP conçu pour les APIs</span>
             <div class="d-block mt-2">
               <a target="_blank" href="//github.com/Sketcher-Cloud-Inc/framefaced/"><i class="uil uil-github mr-2"></i>Voir le dépôt sur GitHub</a>
             </div>
             <hr />
-            <p>Afin de déployer toujours plus rapidement de nouveau système indépendant, je me suis mis à la recherche d'un framwork dédié au fonctionnement pur d'une API. J'ai réalisé qu'il n'en 'existait aucun. J'ai donc depuis janvier 2021 perfectionner le fonctionnement "Frameshort" pour qu'il soit adapté à la création d'APIs.</span></p>
+            <p>Afin de déployer toujours plus rapidement de nouveaux systèmes indépendants, je me suis mis à la recherche d'un framwork dédié au fonctionnement pur d'une API. J'ai réalisé qu'il n'en n'existait aucun. J'ai donc depuis janvier 2021 perfectionné le fonctionnement "Frameshort" pour qu'il soit adapté à la création d'APIs.</span></p>
           </div>
         </div>
 
@@ -228,7 +229,7 @@
             </div>
             <div class="timeline-info">
               <h3><span><s>Développeur full stack</s></span><small>Dawan</small></h3>
-              <p>Suite à une opportunité de basculer en cours de formation sur le titre "développeur concepteur d'application", j'ai laissé ce cursus aux portes de l'entrée en alternance.</p>
+              <p>Après quelques semaines de cours, j’ai saisi l’opportunité qui m’a été offerte par le centre de formation, de basculer en cours de cursus sur le titre professionnel de "concepteur développeur d'applications".</p>
             </div>
           </div>
           <div class="timeline-wrapper">
@@ -236,17 +237,28 @@
               <span>2021</span>
             </div>
             <div class="timeline-info">
-              <h3><span>Developpeur Concepteur d'Application</span><small>En cours chez Dawan</small></h3>
-              <p>En alternance depuis janvier 2021 chez Jehann.fr, je consolide chaque jour mes acquis sur le C#, C ou encore Typescript.</p>
+              <h3><span>Formation de formateur</span><small>Dawan</small></h3>
+              <p>Cette possibilité de formation m'a été proposé par Dawan en interne. J'y ai appris des méthodologies d'apprentissages et des astuces primordiales pour transmettre une connaissance.</p>
             </div>
           </div>
           <div class="timeline-wrapper">
             <div class="timeline-yr">
-              <span>2022</span>
+              <span>2021</span>
             </div>
             <div class="timeline-info">
-              <h3><span>(Objectif 2022) Certification DevOps Institute</span><small>Projet planifier chez Dawan</small></h3>
-              <p>Dans mes objectifs d'amélioration continue dans les métiers du web, le DevOps fait office de tête d'affiche. C'est pourquoi après ma formation de "Développeur Concepteur d'Application" je souhaite passer la certification DOI.</p>
+              <h3><span>CDA [Java]</span><small>En cours chez Dawan</small></h3>
+              <p class="text-muted mt-n3">Concepteur Développeur d'Applications</p>
+              <p>En alternance depuis janvier 2021 chez Dawan, je consolide chaque jour mes acquis sur le Java, le JavaScript, le TypeScript, ou encore CSS.</p>
+            </div>
+          </div>
+          <div class="timeline-wrapper">
+            <div class="timeline-yr">
+              <span>- - -</span>
+            </div>
+            <div class="timeline-info">
+              <h3><span>SRE</span><small>(Objectif 2022 ~ 2023)</small></h3>
+              <p class="text-muted mt-n3">Site Reliability Engineering</p>
+              <p>Dans mes objectifs d'amélioration continue dans les métiers du web, le DevOps fait office de tête d'affiche. C'est pourquoi après ma formation de "Développeur Concepteur d'Application" je souhaite passer la certification SRE.</p>
             </div>
           </div>
         </div>
